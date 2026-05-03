@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="../Statikk Data/Statikk Data.csproj" />
   <Project Path="Mosgi Data.csproj" />
 </Solution>
