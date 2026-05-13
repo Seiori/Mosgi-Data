@@ -11,7 +11,7 @@ public static class SummonerUtilities
         string puuid
     )
     {
-        return (long)XxHash64.HashToUInt64(
+        return (long)XxHash3.HashToUInt64(
             MemoryMarshal.AsBytes(
                 puuid.AsSpan()
             )
